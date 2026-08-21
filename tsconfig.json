@@ -1,0 +1,4 @@
+{
+  "extends": "./tsconfig.base.json",
+  "exclude": ["tiled", "tests", "scripts", "**/tests", "**/node_modules", "vitest.workspace.ts"]
+}

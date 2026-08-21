@@ -1,0 +1,307 @@
+{
+  "textures": [
+    {
+      "image": "prompts.png",
+      "frames": [
+        {
+          "filename": "keyboard_w",
+          "frame": {
+            "x": 8,
+            "y": 8,
+            "w": 64,
+            "h": 64
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "filename": "keyboard_a",
+          "frame": {
+            "x": 80,
+            "y": 8,
+            "w": 64,
+            "h": 64
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "filename": "keyboard_s",
+          "frame": {
+            "x": 152,
+            "y": 8,
+            "w": 64,
+            "h": 64
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "filename": "keyboard_d",
+          "frame": {
+            "x": 224,
+            "y": 8,
+            "w": 64,
+            "h": 64
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "filename": "keyboard_e",
+          "frame": {
+            "x": 296,
+            "y": 8,
+            "w": 64,
+            "h": 64
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "filename": "keyboard_space",
+          "frame": {
+            "x": 368,
+            "y": 8,
+            "w": 64,
+            "h": 64
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "filename": "keyboard_1",
+          "frame": {
+            "x": 440,
+            "y": 8,
+            "w": 64,
+            "h": 64
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "filename": "keyboard_2",
+          "frame": {
+            "x": 8,
+            "y": 80,
+            "w": 64,
+            "h": 64
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "filename": "keyboard_3",
+          "frame": {
+            "x": 80,
+            "y": 80,
+            "w": 64,
+            "h": 64
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "filename": "keyboard_4",
+          "frame": {
+            "x": 152,
+            "y": 80,
+            "w": 64,
+            "h": 64
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "filename": "mouse",
+          "frame": {
+            "x": 224,
+            "y": 80,
+            "w": 64,
+            "h": 64
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "filename": "mouse_left",
+          "frame": {
+            "x": 296,
+            "y": 80,
+            "w": 64,
+            "h": 64
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "filename": "mouse_right",
+          "frame": {
+            "x": 368,
+            "y": 80,
+            "w": 64,
+            "h": 64
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "filename": "mouse_scroll",
+          "frame": {
+            "x": 440,
+            "y": 80,
+            "w": 64,
+            "h": 64
+          },
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 64,
+            "h": 64
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "secto-chaos-neo/build-input-prompts",
+    "version": "1.0"
+  }
+}

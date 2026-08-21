@@ -1,0 +1,25 @@
+FROM node:20-alpine AS build
+
+RUN corepack enable && corepack prepare pnpm@10.33.4 --activate
+
+ARG VITE_SERVER_URL=ws://localhost:2567
+
+WORKDIR /app
+
+COPY . .
+
+RUN --mount=type=cache,target=/root/.local/share/pnpm/store \
+    pnpm install --frozen-lockfile
+
+ENV VITE_SERVER_URL=$VITE_SERVER_URL
+
+RUN rm -rf packages/client-v3/dist packages/client-v3/node_modules/.vite && \
+    pnpm --filter @sector-battle/shared build && pnpm --filter @sector-battle/client-v3 build
+
+FROM nginx:alpine
+
+COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
+
+COPY --from=build /app/packages/client-v3/dist /usr/share/nginx/html
+
+EXPOSE 80

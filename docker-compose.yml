@@ -1,0 +1,5 @@
+# Root compose entrypoint: makes `docker compose <cmd>` work from the repo root
+# (as documented in AGENTS.md). Canonical service definitions live in
+# docker/docker-compose.yml, with the build context set to the repo root.
+include:
+  - docker/docker-compose.yml

@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sector Chaos - Debug Dashboard</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: 'Consolas', 'Monaco', monospace;
+        background: #0a0a0f;
+        color: #c0c0d0;
+        padding: 20px;
+      }
+      h1 {
+        color: #00ff88;
+        font-size: 1.4em;
+        margin-bottom: 16px;
+        border-bottom: 1px solid #333;
+        padding-bottom: 8px;
+      }
+      h2 {
+        color: #00ccff;
+        font-size: 1.1em;
+        margin: 16px 0 8px 0;
+      }
+      .panel {
+        background: #12121a;
+        border: 1px solid #2a2a3a;
+        border-radius: 6px;
+        padding: 12px;
+        margin-bottom: 12px;
+      }
+      pre {
+        white-space: pre-wrap;
+        word-break: break-all;
+        font-size: 0.85em;
+        color: #a0a0b0;
+        max-height: 300px;
+        overflow-y: auto;
+      }
+      .metrics-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 8px;
+      }
+      .metric-card {
+        background: #1a1a28;
+        border: 1px solid #2a2a3a;
+        border-radius: 4px;
+        padding: 10px;
+        text-align: center;
+      }
+      .metric-value {
+        font-size: 1.6em;
+        color: #00ff88;
+        font-weight: bold;
+      }
+      .metric-label {
+        font-size: 0.75em;
+        color: #666;
+        margin-top: 4px;
+        text-transform: uppercase;
+      }
+      .warn {
+        color: #ff6644;
+      }
+      .events-list {
+        max-height: 250px;
+        overflow-y: auto;
+      }
+      .event-item {
+        padding: 3px 6px;
+        border-bottom: 1px solid #1a1a28;
+        font-size: 0.8em;
+      }
+      .event-type {
+        color: #ffcc00;
+      }
+      .event-tick {
+        color: #666;
+      }
+      .status-dot {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        margin-right: 6px;
+      }
+      .status-dot.connected {
+        background: #00ff88;
+      }
+      .status-dot.disconnected {
+        background: #ff4444;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Sector Chaos Debug Dashboard</h1>
+
+    <h2>Tick Metrics</h2>
+    <div class="panel">
+      <div class="metrics-grid" id="metrics-grid">
+        <div class="metric-card">
+          <div class="metric-value" id="m-totalTicks">0</div>
+          <div class="metric-label">Total Ticks</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value" id="m-avgTickMs">0.00</div>
+          <div class="metric-label">Avg Tick (ms)</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value" id="m-maxTickMs">0.00</div>
+          <div class="metric-label">Max Tick (ms)</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value" id="m-lastTickMs">0.00</div>
+          <div class="metric-label">Last Tick (ms)</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value" id="m-totalEvents">0</div>
+          <div class="metric-label">Total Events</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-value" id="m-avgEventsPerTick">0.00</div>
+          <div class="metric-label">Avg Events/Tick</div>
+        </div>
+      </div>
+    </div>
+
+    <h2>Game State</h2>
+    <div class="panel">
+      <pre id="state-content">Loading...</pre>
+    </div>
+
+    <h2>
+      Event Stream <span class="status-dot connected" id="sse-dot"></span
+      ><span style="font-size: 0.7em; color: #666" id="sse-status">Connecting...</span>
+    </h2>
+    <div class="panel events-list" id="events-list"></div>
+
+    <script>
+      const SERVER = location.port === '8080' ? 'http://localhost:2567' : '';
+
+      function formatNum(n) {
+        return typeof n === 'number' ? n.toFixed(2) : '0.00';
+      }
+
+      setInterval(async () => {
+        try {
+          const resp = await fetch(SERVER + '/debug/tick-metrics');
+          const m = await resp.json();
+          document.getElementById('m-totalTicks').textContent = m.totalTicks;
+          document.getElementById('m-avgTickMs').textContent = formatNum(m.avgTickMs);
+          const maxEl = document.getElementById('m-maxTickMs');
+          maxEl.textContent = formatNum(m.maxTickMs);
+          maxEl.className = 'metric-value' + (m.maxTickMs > 16 ? ' warn' : '');
+          document.getElementById('m-lastTickMs').textContent = formatNum(m.lastTickMs);
+          document.getElementById('m-totalEvents').textContent = m.totalEvents;
+          document.getElementById('m-avgEventsPerTick').textContent = formatNum(m.avgEventsPerTick);
+        } catch (e) {
+          console.error('tick-metrics fetch error', e);
+        }
+      }, 1000);
+
+      setInterval(async () => {
+        try {
+          const resp = await fetch(SERVER + '/debug/state');
+          const state = await resp.json();
+          document.getElementById('state-content').textContent = JSON.stringify(state, null, 2);
+        } catch (e) {
+          console.error('state fetch error', e);
+        }
+      }, 1000);
+
+      const es = new EventSource(SERVER + '/debug/events');
+      const eventsList = document.getElementById('events-list');
+      let eventCount = 0;
+      const MAX_EVENTS = 100;
+
+      es.onopen = () => {
+        document.getElementById('sse-status').textContent = 'Connected';
+        document.getElementById('sse-dot').className = 'status-dot connected';
+      };
+
+      es.onerror = () => {
+        document.getElementById('sse-status').textContent = 'Disconnected';
+        document.getElementById('sse-dot').className = 'status-dot disconnected';
+      };
+
+      es.onmessage = (e) => {
+        eventCount++;
+        try {
+          const evt = JSON.parse(e.data);
+          const div = document.createElement('div');
+          div.className = 'event-item';
+          div.innerHTML =
+            '<span class="event-type">' +
+            (evt.type || 'unknown') +
+            '</span> <span class="event-tick">tick:' +
+            (evt.tick ?? '?') +
+            '</span>';
+          eventsList.prepend(div);
+          while (eventsList.children.length > MAX_EVENTS) {
+            eventsList.removeChild(eventsList.lastChild);
+          }
+        } catch {}
+      };
+    </script>
+  </body>
+</html>

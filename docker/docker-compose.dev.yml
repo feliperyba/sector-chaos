@@ -1,0 +1,36 @@
+services:
+  server:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.dev
+    command: pnpm exec tsx watch packages/server/src/index.ts
+    environment:
+      - PORT=2567
+      - NODE_ENV=development
+    volumes:
+      - ../packages/server/src:/app/packages/server/src
+      - ../packages/shared/src:/app/packages/shared/src
+    healthcheck:
+      test: ['CMD', 'wget', '--no-verbose', '--tries=1', '--spider', 'http://localhost:2567/']
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 10s
+
+  client:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.dev
+    command: pnpm --filter @sector-battle/client-v3 dev --host 0.0.0.0 --port 80
+    environment:
+      - VITE_SERVER_URL=ws://localhost:2567
+    volumes:
+      - ../packages/client-v3/src:/app/packages/client-v3/src
+      - ../packages/client-v3/public:/app/packages/client-v3/public
+      - ../packages/shared/src:/app/packages/shared/src
+      - ../game-assets:/app/game-assets
+    ports:
+      - '8080:80'
+    depends_on:
+      server:
+        condition: service_healthy

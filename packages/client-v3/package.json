@@ -1,0 +1,27 @@
+{
+  "name": "@sector-battle/client-v3",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "lint": "oxlint --config ../../oxlint.json --ignore-pattern \"**/*.test.ts\" --ignore-pattern \"**/__tests__/**\" --ignore-pattern \"**/AssetManifest.ts\" --ignore-pattern \"**/audio-sprite-markers.ts\" src/",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build:audio-sprite": "tsx ../../scripts/asset-pipeline/build-audio-spritesheet.ts",
+    "build:input-prompts": "tsx ../../scripts/asset-pipeline/build-input-prompts.ts"
+  },
+  "dependencies": {
+    "@colyseus/sdk": "^0.17.42",
+    "@sector-battle/shared": "workspace:*",
+    "phaser": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^2.1.8",
+    "oxlint": "^0.16.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^2.1.8"
+  }
+}

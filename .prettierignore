@@ -1,0 +1,9 @@
+dist/
+node_modules/
+coverage/
+.turbo/
+game-assets/
+docs/
+.opencode/
+pnpm-lock.yaml
+tiled/

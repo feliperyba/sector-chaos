@@ -1,0 +1,2014 @@
+{
+  "textures": [
+    {
+      "image": "vfx.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 644,
+        "h": 637
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "star_03",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 64,
+            "h": 64
+          },
+          "frame": {
+            "x": 4,
+            "y": 4,
+            "w": 64,
+            "h": 64
+          }
+        },
+        {
+          "filename": "star_01",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 1,
+            "y": 0,
+            "w": 62,
+            "h": 64
+          },
+          "frame": {
+            "x": 76,
+            "y": 4,
+            "w": 62,
+            "h": 64
+          }
+        },
+        {
+          "filename": "star_02",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 1,
+            "y": 0,
+            "w": 62,
+            "h": 64
+          },
+          "frame": {
+            "x": 4,
+            "y": 76,
+            "w": 62,
+            "h": 64
+          }
+        },
+        {
+          "filename": "star_06",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 1,
+            "y": 0,
+            "w": 62,
+            "h": 64
+          },
+          "frame": {
+            "x": 76,
+            "y": 76,
+            "w": 62,
+            "h": 64
+          }
+        },
+        {
+          "filename": "magic_03",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 1,
+            "y": 1,
+            "w": 62,
+            "h": 62
+          },
+          "frame": {
+            "x": 146,
+            "y": 4,
+            "w": 62,
+            "h": 62
+          }
+        },
+        {
+          "filename": "light_01",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 1,
+            "y": 1,
+            "w": 62,
+            "h": 62
+          },
+          "frame": {
+            "x": 4,
+            "y": 146,
+            "w": 62,
+            "h": 62
+          }
+        },
+        {
+          "filename": "light_03",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 1,
+            "y": 1,
+            "w": 62,
+            "h": 62
+          },
+          "frame": {
+            "x": 74,
+            "y": 146,
+            "w": 62,
+            "h": 62
+          }
+        },
+        {
+          "filename": "light_02",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 1,
+            "y": 1,
+            "w": 62,
+            "h": 62
+          },
+          "frame": {
+            "x": 144,
+            "y": 146,
+            "w": 62,
+            "h": 62
+          }
+        },
+        {
+          "filename": "dirt_03",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 2,
+            "y": 3,
+            "w": 62,
+            "h": 61
+          },
+          "frame": {
+            "x": 148,
+            "y": 74,
+            "w": 62,
+            "h": 61
+          }
+        },
+        {
+          "filename": "muzzle_01",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 2,
+            "y": 0,
+            "w": 59,
+            "h": 64
+          },
+          "frame": {
+            "x": 214,
+            "y": 143,
+            "w": 59,
+            "h": 64
+          }
+        },
+        {
+          "filename": "spark_02",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 2,
+            "y": 4,
+            "w": 62,
+            "h": 60
+          },
+          "frame": {
+            "x": 216,
+            "y": 4,
+            "w": 62,
+            "h": 60
+          }
+        },
+        {
+          "filename": "magic_05",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 2,
+            "y": 2,
+            "w": 60,
+            "h": 61
+          },
+          "frame": {
+            "x": 214,
+            "y": 215,
+            "w": 60,
+            "h": 61
+          }
+        },
+        {
+          "filename": "circle_03",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 2,
+            "y": 2,
+            "w": 60,
+            "h": 60
+          },
+          "frame": {
+            "x": 4,
+            "y": 216,
+            "w": 60,
+            "h": 60
+          }
+        },
+        {
+          "filename": "spark_04",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 2,
+            "y": 4,
+            "w": 61,
+            "h": 58
+          },
+          "frame": {
+            "x": 218,
+            "y": 74,
+            "w": 61,
+            "h": 58
+          }
+        },
+        {
+          "filename": "spark_01",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 1,
+            "y": 1,
+            "w": 59,
+            "h": 59
+          },
+          "frame": {
+            "x": 72,
+            "y": 216,
+            "w": 59,
+            "h": 59
+          }
+        },
+        {
+          "filename": "scorch_02",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 3,
+            "y": 2,
+            "w": 59,
+            "h": 59
+          },
+          "frame": {
+            "x": 139,
+            "y": 216,
+            "w": 59,
+            "h": 59
+          }
+        },
+        {
+          "filename": "magic_04",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 3,
+            "y": 2,
+            "w": 58,
+            "h": 60
+          },
+          "frame": {
+            "x": 72,
+            "y": 283,
+            "w": 58,
+            "h": 60
+          }
+        },
+        {
+          "filename": "circle_05",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 3,
+            "y": 2,
+            "w": 58,
+            "h": 60
+          },
+          "frame": {
+            "x": 4,
+            "y": 284,
+            "w": 58,
+            "h": 60
+          }
+        },
+        {
+          "filename": "star_07",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 2,
+            "y": 3,
+            "w": 60,
+            "h": 58
+          },
+          "frame": {
+            "x": 140,
+            "y": 283,
+            "w": 60,
+            "h": 58
+          }
+        },
+        {
+          "filename": "splat35",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 3,
+            "y": 2,
+            "w": 58,
+            "h": 60
+          },
+          "frame": {
+            "x": 208,
+            "y": 284,
+            "w": 58,
+            "h": 60
+          }
+        },
+        {
+          "filename": "splat01",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 1,
+            "y": 4,
+            "w": 62,
+            "h": 56
+          },
+          "frame": {
+            "x": 276,
+            "y": 284,
+            "w": 62,
+            "h": 56
+          }
+        },
+        {
+          "filename": "scorch_03",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 3,
+            "y": 3,
+            "w": 59,
+            "h": 58
+          },
+          "frame": {
+            "x": 281,
+            "y": 143,
+            "w": 59,
+            "h": 58
+          }
+        },
+        {
+          "filename": "circle_04",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 3,
+            "y": 3,
+            "w": 58,
+            "h": 58
+          },
+          "frame": {
+            "x": 282,
+            "y": 209,
+            "w": 58,
+            "h": 58
+          }
+        },
+        {
+          "filename": "splat05",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 3,
+            "y": 3,
+            "w": 58,
+            "h": 58
+          },
+          "frame": {
+            "x": 346,
+            "y": 275,
+            "w": 58,
+            "h": 58
+          }
+        },
+        {
+          "filename": "smoke_04",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 3,
+            "y": 3,
+            "w": 58,
+            "h": 58
+          },
+          "frame": {
+            "x": 348,
+            "y": 4,
+            "w": 58,
+            "h": 58
+          }
+        },
+        {
+          "filename": "splat09",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 3,
+            "y": 3,
+            "w": 58,
+            "h": 58
+          },
+          "frame": {
+            "x": 284,
+            "y": 70,
+            "w": 58,
+            "h": 58
+          }
+        },
+        {
+          "filename": "spark_03",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 4,
+            "y": 6,
+            "w": 59,
+            "h": 57
+          },
+          "frame": {
+            "x": 348,
+            "y": 136,
+            "w": 59,
+            "h": 57
+          }
+        },
+        {
+          "filename": "splat20",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 2,
+            "y": 4,
+            "w": 60,
+            "h": 56
+          },
+          "frame": {
+            "x": 348,
+            "y": 201,
+            "w": 60,
+            "h": 56
+          }
+        },
+        {
+          "filename": "splat28",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 4,
+            "y": 2,
+            "w": 56,
+            "h": 60
+          },
+          "frame": {
+            "x": 346,
+            "y": 341,
+            "w": 56,
+            "h": 60
+          }
+        },
+        {
+          "filename": "splat34",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 2,
+            "y": 4,
+            "w": 60,
+            "h": 56
+          },
+          "frame": {
+            "x": 276,
+            "y": 348,
+            "w": 60,
+            "h": 56
+          }
+        },
+        {
+          "filename": "splat17",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 4,
+            "y": 2,
+            "w": 56,
+            "h": 60
+          },
+          "frame": {
+            "x": 72,
+            "y": 349,
+            "w": 56,
+            "h": 60
+          }
+        },
+        {
+          "filename": "star_09",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 5,
+            "y": 1,
+            "w": 54,
+            "h": 62
+          },
+          "frame": {
+            "x": 140,
+            "y": 350,
+            "w": 54,
+            "h": 62
+          }
+        },
+        {
+          "filename": "smoke_01",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 3,
+            "y": 4,
+            "w": 58,
+            "h": 57
+          },
+          "frame": {
+            "x": 350,
+            "y": 70,
+            "w": 58,
+            "h": 57
+          }
+        },
+        {
+          "filename": "splat24",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 4,
+            "y": 3,
+            "w": 56,
+            "h": 58
+          },
+          "frame": {
+            "x": 284,
+            "y": 4,
+            "w": 56,
+            "h": 58
+          }
+        },
+        {
+          "filename": "splat12",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 4,
+            "y": 3,
+            "w": 56,
+            "h": 58
+          },
+          "frame": {
+            "x": 210,
+            "y": 350,
+            "w": 56,
+            "h": 58
+          }
+        },
+        {
+          "filename": "splat14",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 4,
+            "y": 3,
+            "w": 56,
+            "h": 58
+          },
+          "frame": {
+            "x": 4,
+            "y": 350,
+            "w": 56,
+            "h": 58
+          }
+        },
+        {
+          "filename": "splat07",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 4,
+            "y": 3,
+            "w": 56,
+            "h": 58
+          },
+          "frame": {
+            "x": 140,
+            "y": 412,
+            "w": 56,
+            "h": 58
+          }
+        },
+        {
+          "filename": "splat33",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 4,
+            "y": 3,
+            "w": 56,
+            "h": 58
+          },
+          "frame": {
+            "x": 70,
+            "y": 413,
+            "w": 56,
+            "h": 58
+          }
+        },
+        {
+          "filename": "fire_01",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 3,
+            "y": 5,
+            "w": 59,
+            "h": 55
+          },
+          "frame": {
+            "x": 344,
+            "y": 409,
+            "w": 59,
+            "h": 55
+          }
+        },
+        {
+          "filename": "splat03",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 2,
+            "y": 5,
+            "w": 60,
+            "h": 54
+          },
+          "frame": {
+            "x": 276,
+            "y": 412,
+            "w": 60,
+            "h": 54
+          }
+        },
+        {
+          "filename": "splat19",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 2,
+            "y": 5,
+            "w": 60,
+            "h": 54
+          },
+          "frame": {
+            "x": 204,
+            "y": 414,
+            "w": 60,
+            "h": 54
+          }
+        },
+        {
+          "filename": "splat26",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 2,
+            "y": 5,
+            "w": 60,
+            "h": 54
+          },
+          "frame": {
+            "x": 410,
+            "y": 341,
+            "w": 60,
+            "h": 54
+          }
+        },
+        {
+          "filename": "smoke_02",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 3,
+            "y": 4,
+            "w": 57,
+            "h": 56
+          },
+          "frame": {
+            "x": 4,
+            "y": 414,
+            "w": 57,
+            "h": 56
+          }
+        },
+        {
+          "filename": "splat06",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 3,
+            "y": 5,
+            "w": 58,
+            "h": 55
+          },
+          "frame": {
+            "x": 414,
+            "y": 4,
+            "w": 58,
+            "h": 55
+          }
+        },
+        {
+          "filename": "splat16",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 2,
+            "y": 6,
+            "w": 60,
+            "h": 53
+          },
+          "frame": {
+            "x": 411,
+            "y": 409,
+            "w": 60,
+            "h": 53
+          }
+        },
+        {
+          "filename": "splat08",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 4,
+            "y": 4,
+            "w": 56,
+            "h": 56
+          },
+          "frame": {
+            "x": 412,
+            "y": 201,
+            "w": 56,
+            "h": 56
+          }
+        },
+        {
+          "filename": "circle_01",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 4,
+            "y": 4,
+            "w": 56,
+            "h": 56
+          },
+          "frame": {
+            "x": 412,
+            "y": 265,
+            "w": 56,
+            "h": 56
+          }
+        },
+        {
+          "filename": "splat18",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 3,
+            "y": 5,
+            "w": 58,
+            "h": 54
+          },
+          "frame": {
+            "x": 415,
+            "y": 70,
+            "w": 58,
+            "h": 54
+          }
+        },
+        {
+          "filename": "splat27",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 6,
+            "y": 2,
+            "w": 52,
+            "h": 60
+          },
+          "frame": {
+            "x": 415,
+            "y": 136,
+            "w": 52,
+            "h": 60
+          }
+        },
+        {
+          "filename": "magic_01",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 5,
+            "y": 5,
+            "w": 55,
+            "h": 55
+          },
+          "frame": {
+            "x": 472,
+            "y": 329,
+            "w": 55,
+            "h": 55
+          }
+        },
+        {
+          "filename": "star_05",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 5,
+            "y": 4,
+            "w": 54,
+            "h": 56
+          },
+          "frame": {
+            "x": 472,
+            "y": 392,
+            "w": 54,
+            "h": 56
+          }
+        },
+        {
+          "filename": "splat02",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 6,
+            "y": 3,
+            "w": 52,
+            "h": 58
+          },
+          "frame": {
+            "x": 477,
+            "y": 4,
+            "w": 52,
+            "h": 58
+          }
+        },
+        {
+          "filename": "splat04",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 3,
+            "y": 6,
+            "w": 58,
+            "h": 52
+          },
+          "frame": {
+            "x": 477,
+            "y": 70,
+            "w": 58,
+            "h": 52
+          }
+        },
+        {
+          "filename": "splat10",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 2,
+            "y": 7,
+            "w": 60,
+            "h": 50
+          },
+          "frame": {
+            "x": 476,
+            "y": 196,
+            "w": 60,
+            "h": 50
+          }
+        },
+        {
+          "filename": "magic_02",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 5,
+            "y": 5,
+            "w": 54,
+            "h": 55
+          },
+          "frame": {
+            "x": 69,
+            "y": 477,
+            "w": 54,
+            "h": 55
+          }
+        },
+        {
+          "filename": "fire_02",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 5,
+            "y": 5,
+            "w": 53,
+            "h": 55
+          },
+          "frame": {
+            "x": 476,
+            "y": 264,
+            "w": 53,
+            "h": 55
+          }
+        },
+        {
+          "filename": "splat00",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 4,
+            "y": 6,
+            "w": 56,
+            "h": 52
+          },
+          "frame": {
+            "x": 4,
+            "y": 478,
+            "w": 56,
+            "h": 52
+          }
+        },
+        {
+          "filename": "splat15",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 6,
+            "y": 4,
+            "w": 52,
+            "h": 56
+          },
+          "frame": {
+            "x": 344,
+            "y": 472,
+            "w": 52,
+            "h": 56
+          }
+        },
+        {
+          "filename": "splat13",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 4,
+            "y": 6,
+            "w": 56,
+            "h": 52
+          },
+          "frame": {
+            "x": 272,
+            "y": 474,
+            "w": 56,
+            "h": 52
+          }
+        },
+        {
+          "filename": "flame_02",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 8,
+            "y": 7,
+            "w": 53,
+            "h": 54
+          },
+          "frame": {
+            "x": 204,
+            "y": 476,
+            "w": 53,
+            "h": 54
+          }
+        },
+        {
+          "filename": "splat30",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 6,
+            "y": 5,
+            "w": 52,
+            "h": 54
+          },
+          "frame": {
+            "x": 131,
+            "y": 478,
+            "w": 52,
+            "h": 54
+          }
+        },
+        {
+          "filename": "splat11",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 5,
+            "y": 6,
+            "w": 54,
+            "h": 52
+          },
+          "frame": {
+            "x": 472,
+            "y": 456,
+            "w": 54,
+            "h": 52
+          }
+        },
+        {
+          "filename": "splat29",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 8,
+            "y": 3,
+            "w": 48,
+            "h": 58
+          },
+          "frame": {
+            "x": 404,
+            "y": 477,
+            "w": 48,
+            "h": 58
+          }
+        },
+        {
+          "filename": "scorch_01",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 6,
+            "y": 5,
+            "w": 52,
+            "h": 52
+          },
+          "frame": {
+            "x": 483,
+            "y": 136,
+            "w": 52,
+            "h": 52
+          }
+        },
+        {
+          "filename": "smoke_05",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 7,
+            "y": 6,
+            "w": 51,
+            "h": 53
+          },
+          "frame": {
+            "x": 534,
+            "y": 196,
+            "w": 51,
+            "h": 53
+          }
+        },
+        {
+          "filename": "splat25",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 5,
+            "y": 7,
+            "w": 54,
+            "h": 50
+          },
+          "frame": {
+            "x": 537,
+            "y": 4,
+            "w": 54,
+            "h": 50
+          }
+        },
+        {
+          "filename": "splat32",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 3,
+            "y": 9,
+            "w": 58,
+            "h": 46
+          },
+          "frame": {
+            "x": 537,
+            "y": 66,
+            "w": 58,
+            "h": 46
+          }
+        },
+        {
+          "filename": "splat22",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 6,
+            "y": 7,
+            "w": 52,
+            "h": 50
+          },
+          "frame": {
+            "x": 534,
+            "y": 392,
+            "w": 52,
+            "h": 50
+          }
+        },
+        {
+          "filename": "splat21",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 5,
+            "y": 8,
+            "w": 54,
+            "h": 48
+          },
+          "frame": {
+            "x": 535,
+            "y": 327,
+            "w": 54,
+            "h": 48
+          }
+        },
+        {
+          "filename": "splat23",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 3,
+            "y": 10,
+            "w": 58,
+            "h": 44
+          },
+          "frame": {
+            "x": 537,
+            "y": 257,
+            "w": 58,
+            "h": 44
+          }
+        },
+        {
+          "filename": "smoke_10",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 7,
+            "y": 5,
+            "w": 50,
+            "h": 51
+          },
+          "frame": {
+            "x": 534,
+            "y": 450,
+            "w": 50,
+            "h": 51
+          }
+        },
+        {
+          "filename": "smoke_08",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 4,
+            "y": 6,
+            "w": 53,
+            "h": 48
+          },
+          "frame": {
+            "x": 4,
+            "y": 538,
+            "w": 53,
+            "h": 48
+          }
+        },
+        {
+          "filename": "smoke_07",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 3,
+            "y": 6,
+            "w": 54,
+            "h": 47
+          },
+          "frame": {
+            "x": 265,
+            "y": 534,
+            "w": 54,
+            "h": 47
+          }
+        },
+        {
+          "filename": "spark_05",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 11,
+            "y": 0,
+            "w": 39,
+            "h": 64
+          },
+          "frame": {
+            "x": 191,
+            "y": 538,
+            "w": 39,
+            "h": 64
+          }
+        },
+        {
+          "filename": "flame_04",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 9,
+            "y": 11,
+            "w": 52,
+            "h": 48
+          },
+          "frame": {
+            "x": 534,
+            "y": 509,
+            "w": 52,
+            "h": 48
+          }
+        },
+        {
+          "filename": "dirt_01",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 9,
+            "y": 7,
+            "w": 47,
+            "h": 53
+          },
+          "frame": {
+            "x": 470,
+            "y": 516,
+            "w": 47,
+            "h": 53
+          }
+        },
+        {
+          "filename": "splat31",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 5,
+            "y": 9,
+            "w": 54,
+            "h": 46
+          },
+          "frame": {
+            "x": 543,
+            "y": 132,
+            "w": 54,
+            "h": 46
+          }
+        },
+        {
+          "filename": "muzzle_05",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 14,
+            "y": 0,
+            "w": 38,
+            "h": 64
+          },
+          "frame": {
+            "x": 65,
+            "y": 540,
+            "w": 38,
+            "h": 64
+          }
+        },
+        {
+          "filename": "muzzle_02",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 13,
+            "y": 0,
+            "w": 38,
+            "h": 64
+          },
+          "frame": {
+            "x": 327,
+            "y": 536,
+            "w": 38,
+            "h": 64
+          }
+        },
+        {
+          "filename": "muzzle_03",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 11,
+            "y": 0,
+            "w": 37,
+            "h": 64
+          },
+          "frame": {
+            "x": 137,
+            "y": 540,
+            "w": 37,
+            "h": 64
+          }
+        },
+        {
+          "filename": "smoke_09",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 8,
+            "y": 7,
+            "w": 49,
+            "h": 48
+          },
+          "frame": {
+            "x": 182,
+            "y": 585,
+            "w": 49,
+            "h": 48
+          }
+        },
+        {
+          "filename": "circle_02",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 8,
+            "y": 8,
+            "w": 48,
+            "h": 48
+          },
+          "frame": {
+            "x": 525,
+            "y": 565,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "filename": "star_04",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 8,
+            "y": 8,
+            "w": 48,
+            "h": 48
+          },
+          "frame": {
+            "x": 404,
+            "y": 533,
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "filename": "dirt_02",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 5,
+            "y": 10,
+            "w": 49,
+            "h": 47
+          },
+          "frame": {
+            "x": 65,
+            "y": 586,
+            "w": 49,
+            "h": 47
+          }
+        },
+        {
+          "filename": "muzzle_04",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 15,
+            "y": 0,
+            "w": 35,
+            "h": 64
+          },
+          "frame": {
+            "x": 327,
+            "y": 582,
+            "w": 35,
+            "h": 64
+          }
+        },
+        {
+          "filename": "flame_01",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 11,
+            "y": 11,
+            "w": 47,
+            "h": 48
+          },
+          "frame": {
+            "x": 460,
+            "y": 577,
+            "w": 47,
+            "h": 48
+          }
+        },
+        {
+          "filename": "smoke_06",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 7,
+            "y": 7,
+            "w": 46,
+            "h": 48
+          },
+          "frame": {
+            "x": 592,
+            "y": 450,
+            "w": 46,
+            "h": 48
+          }
+        },
+        {
+          "filename": "flare_01",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 9,
+            "y": 9,
+            "w": 46,
+            "h": 46
+          },
+          "frame": {
+            "x": 594,
+            "y": 383,
+            "w": 46,
+            "h": 46
+          }
+        },
+        {
+          "filename": "star_08",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 9,
+            "y": 9,
+            "w": 46,
+            "h": 46
+          },
+          "frame": {
+            "x": 591,
+            "y": 66,
+            "w": 46,
+            "h": 46
+          }
+        },
+        {
+          "filename": "flame_03",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 16,
+            "y": 13,
+            "w": 39,
+            "h": 47
+          },
+          "frame": {
+            "x": 4,
+            "y": 594,
+            "w": 39,
+            "h": 47
+          }
+        },
+        {
+          "filename": "spark_07",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 21,
+            "w": 64,
+            "h": 24
+          },
+          "frame": {
+            "x": 239,
+            "y": 589,
+            "w": 64,
+            "h": 24
+          }
+        },
+        {
+          "filename": "spark_06",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 21,
+            "y": 0,
+            "w": 21,
+            "h": 64
+          },
+          "frame": {
+            "x": 581,
+            "y": 565,
+            "w": 21,
+            "h": 64
+          }
+        },
+        {
+          "filename": "smoke_03",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 14,
+            "y": 15,
+            "w": 36,
+            "h": 34
+          },
+          "frame": {
+            "x": 399,
+            "y": 589,
+            "w": 36,
+            "h": 34
+          }
+        },
+        {
+          "filename": "flame_06",
+          "rotated": true,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 25,
+            "y": 9,
+            "w": 16,
+            "h": 39
+          },
+          "frame": {
+            "x": 122,
+            "y": 612,
+            "w": 16,
+            "h": 39
+          }
+        },
+        {
+          "filename": "flame_05",
+          "rotated": false,
+          "trimmed": true,
+          "sourceSize": {
+            "w": 64,
+            "h": 64
+          },
+          "spriteSourceSize": {
+            "x": 26,
+            "y": 14,
+            "w": 13,
+            "h": 34
+          },
+          "frame": {
+            "x": 594,
+            "y": 506,
+            "w": 13,
+            "h": 34
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7"
+  }
+}

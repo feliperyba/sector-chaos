@@ -1,0 +1,1762 @@
+{
+  "textures": [
+    {
+      "image": "game.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1360,
+        "h": 1224
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "door_closed",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 4,
+            "y": 4,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "blue_character",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 140,
+            "y": 4,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "cyan_character",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 4,
+            "y": 140,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "cyan_hand",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 140,
+            "y": 140,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "green_character",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 276,
+            "y": 4,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "green_hand",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 276,
+            "y": 140,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "orange_character",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 4,
+            "y": 276,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "orange_hand",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 140,
+            "y": 276,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "pink_character",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 276,
+            "y": 276,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "pink_hand",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 412,
+            "y": 4,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "purple_character",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 412,
+            "y": 140,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "purple_hand",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 412,
+            "y": 276,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "red_character",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 4,
+            "y": 412,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "red_hand",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 140,
+            "y": 412,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "yellow_character",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 276,
+            "y": 412,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "yellow_hand",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 412,
+            "y": 412,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "shield_curved",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 548,
+            "y": 4,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "shield_straight",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 548,
+            "y": 140,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "weapon_arrow",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 548,
+            "y": 276,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "weapon_axe",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 548,
+            "y": 412,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "weapon_axe_blades",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 4,
+            "y": 548,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "weapon_axe_double",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 140,
+            "y": 548,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "weapon_axe_large",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 276,
+            "y": 548,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "weapon_bow",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 412,
+            "y": 548,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "weapon_bow_arrow",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 548,
+            "y": 548,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "weapon_dagger",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 684,
+            "y": 4,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "weapon_hammer",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 684,
+            "y": 140,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "weapon_longsword",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 684,
+            "y": 276,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "weapon_pole",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 684,
+            "y": 412,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "weapon_spear",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 684,
+            "y": 548,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "weapon_staff",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 4,
+            "y": 684,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "weapon_sword",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 140,
+            "y": 684,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "barrel",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 276,
+            "y": 684,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "barrels",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 412,
+            "y": 684,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "barrels_stacked",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 548,
+            "y": 684,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "campfire",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 684,
+            "y": 684,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "chair",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 820,
+            "y": 4,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "chest",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 820,
+            "y": 140,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "coffin",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 820,
+            "y": 276,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "crate",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 820,
+            "y": 412,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "crate_small",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 820,
+            "y": 548,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "blue_hand",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 820,
+            "y": 684,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "door_open",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 4,
+            "y": 820,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "doorway",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 140,
+            "y": 820,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "grass",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 276,
+            "y": 820,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "inner_diagonal",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 412,
+            "y": 820,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "inner_long_diagonal",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 548,
+            "y": 820,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "inner_long_round",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 684,
+            "y": 820,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "inner_round",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 820,
+            "y": 820,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "path",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 956,
+            "y": 4,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "path_crossing",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 956,
+            "y": 140,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "path_curve",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 956,
+            "y": 276,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "planks",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 956,
+            "y": 412,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "plants",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 956,
+            "y": 548,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "puddle",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 956,
+            "y": 684,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "stairs_down",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 956,
+            "y": 820,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "stairs_down_detail",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 4,
+            "y": 956,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "tile",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 140,
+            "y": 956,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "tiles",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 276,
+            "y": 956,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "tiles_center",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 412,
+            "y": 956,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "tiles_corner",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 548,
+            "y": 956,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "tiles_cracked",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 684,
+            "y": 956,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "tiles_decorative",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 820,
+            "y": 956,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "track",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 956,
+            "y": 956,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "track_crossing",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 1092,
+            "y": 4,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "track_curve",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 1092,
+            "y": 140,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "trap",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 1092,
+            "y": 276,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "trap_door",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 1092,
+            "y": 412,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "trapdoor_round",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 1092,
+            "y": 548,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "trapdoor_square",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 1092,
+            "y": 684,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "tree",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 1092,
+            "y": 820,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "wall",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 1092,
+            "y": 956,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "wall_corner",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 4,
+            "y": 1092,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "wall_curve",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 140,
+            "y": 1092,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "wall_damaged",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 276,
+            "y": 1092,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "wall_demolished",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 412,
+            "y": 1092,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "wall_diagonal",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 548,
+            "y": 1092,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "wall_edge",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 684,
+            "y": 1092,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "wall_half",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 820,
+            "y": 1092,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "wall_secret",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 956,
+            "y": 1092,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "wall_trap",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 1092,
+            "y": 1092,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "water",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 1228,
+            "y": 4,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "wood",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 1228,
+            "y": 140,
+            "w": 128,
+            "h": 128
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7"
+  }
+}

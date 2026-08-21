@@ -1,0 +1,73 @@
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: scn-test-redis
+    healthcheck:
+      test: ['CMD', 'redis-cli', 'ping']
+      interval: 1s
+      timeout: 3s
+      retries: 5
+
+  server:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.server
+    container_name: scn-test-server
+    ports:
+      - '2567:2567'
+    environment:
+      - NODE_ENV=development
+      - REDIS_URL=redis://redis:6379
+    healthcheck:
+      test:
+        [
+          'CMD',
+          'node',
+          '-e',
+          "fetch('http://localhost:2567/').then(()=>process.exit(0)).catch(()=>process.exit(1))",
+        ]
+      interval: 2s
+      timeout: 3s
+      retries: 15
+    depends_on:
+      redis:
+        condition: service_healthy
+
+  client:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.client
+      args:
+        - VITE_BROWSER_VIEW=true
+        - VITE_SERVER_URL=ws://server:2567
+    container_name: scn-test-client
+    ports:
+      - '3000:80'
+    healthcheck:
+      test: ['CMD', 'wget', '--spider', '-q', 'http://127.0.0.1:80/']
+      interval: 2s
+      timeout: 3s
+      retries: 15
+    depends_on:
+      server:
+        condition: service_healthy
+
+  test-runner:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.test-runner
+    container_name: scn-test-runner
+    shm_size: '2gb'
+    extra_hosts:
+      - 'host.docker.internal:host-gateway'
+    environment:
+      - SERVER_URL=ws://server:2567
+      - CLIENT_URL=http://client:80
+      - OLLAMA_HOST=http://host.docker.internal:11434
+    volumes:
+      - ../tests/artifacts:/app/tests/artifacts
+    depends_on:
+      client:
+        condition: service_healthy
+      server:
+        condition: service_healthy

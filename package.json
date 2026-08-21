@@ -1,0 +1,57 @@
+{
+  "name": "sector-battle-arena",
+  "private": true,
+  "packageManager": "pnpm@10.33.4",
+  "scripts": {
+    "prepare": "husky",
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "check:file-length": "tsx scripts/check-file-length.ts",
+    "test": "turbo test",
+    "typecheck": "turbo typecheck",
+    "clean": "turbo clean",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "docker:e2e:up": "docker compose up --build -d",
+    "docker:e2e:down": "docker compose down -v",
+    "docker:e2e:test": "docker compose up --build -d && pnpm exec playwright test && docker compose down -v",
+    "docker:dev:up": "docker compose -f docker/docker-compose.yml -f docker/docker-compose.dev.yml up --build",
+    "docker:dev:down": "docker compose -f docker/docker-compose.yml -f docker/docker-compose.dev.yml down"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@vitest/coverage-v8": "^3.2.4",
+    "ffmpeg-static": "^5.3.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.0.5",
+    "oxlint": "^0.16.0",
+    "prettier": "^3.5.0",
+    "puppeteer": "^25.0.4",
+    "sharp": "^0.33.0",
+    "tsx": "^4.19.0",
+    "turbo": "^2.5.0",
+    "typescript": "^5.8.0",
+    "vitest": "^4.1.8"
+  },
+  "pnpm": {
+    "overrides": {
+      "@colyseus/core": "^0.17.42",
+      "@colyseus/schema": "^4.0.24"
+    },
+    "ignoredBuiltDependencies": [
+      "odiff-bin",
+      "puppeteer"
+    ]
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx,json,css,md}": "prettier --write"
+  },
+  "dependencies": {
+    "loglevel": "^1.9.2"
+  }
+}

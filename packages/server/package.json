@@ -1,0 +1,35 @@
+{
+  "name": "@sector-battle/server",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "test": "vitest run --pass-with-no-tests",
+    "typecheck": "tsc --noEmit",
+    "sprite-gallery": "tsx scripts/sprite-gallery.ts",
+    "bench:bot-ai": "tsx scripts/bench-bot-ai.ts",
+    "bench:baseline": "tsx scripts/capture-bot-baseline.ts",
+    "bench:baseline-v2": "tsx scripts/capture-bot-baseline.ts --v2",
+    "lint": "oxlint --config ../../oxlint.json --ignore-pattern \"**/*.test.ts\" --ignore-pattern \"**/__tests__/**\" src/"
+  },
+  "dependencies": {
+    "@colyseus/schema": "^4.0.24",
+    "@sector-battle/shared": "workspace:*",
+    "colyseus": "^0.17.10",
+    "express": "^5.2.1",
+    "fast-xml-parser": "^5.8.0",
+    "jsonwebtoken": "^9.0.3",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@colyseus/testing": "^0.17.11",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "oxlint": "^0.16.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.4"
+  }
+}

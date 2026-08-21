@@ -1,0 +1,26 @@
+{
+  "rules": {
+    "no-console": "error",
+    "eq-eq-eq": "error",
+    "no-var": "error",
+    "prefer-const": "error",
+    "no-async-without-await": "error",
+    "no-set-timeout": "error",
+    "no-set-interval": "error",
+    "ts/no-explicit-any": "error",
+    "ts/ban-ts-comment": "error",
+    "ts/no-unused-vars": "error",
+    "max-lines": ["error", { "max": 500 }],
+    "jsdoc/require-param": "error",
+    "jsdoc/require-returns": "error"
+  },
+  "ignore": [
+    "dist/",
+    "node_modules/",
+    "*.config.ts",
+    "tests/",
+    "__tests__/",
+    "**/logger.ts",
+    "**/Logger.ts"
+  ]
+}

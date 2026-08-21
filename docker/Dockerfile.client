@@ -1,0 +1,20 @@
+FROM node:20-slim AS builder
+RUN apt-get update && apt-get install -y ffmpeg --no-install-recommends && rm -rf /var/lib/apt/lists/*
+WORKDIR /app
+ARG VITE_BROWSER_VIEW=true
+ARG VITE_SERVER_URL=ws://localhost:2567
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+COPY tsconfig.base.json ./
+COPY scripts/ ./scripts/
+COPY game-assets/ ./game-assets/
+COPY packages/ ./packages/
+RUN corepack prepare pnpm@10.33.4 --activate && corepack enable && pnpm install --frozen-lockfile
+ENV VITE_BROWSER_VIEW=$VITE_BROWSER_VIEW
+ENV VITE_SERVER_URL=$VITE_SERVER_URL
+RUN pnpm --filter @sector-battle/shared build && pnpm --filter @sector-battle/client build
+
+FROM nginx:alpine
+COPY --from=builder /app/packages/client/dist /usr/share/nginx/html
+COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]

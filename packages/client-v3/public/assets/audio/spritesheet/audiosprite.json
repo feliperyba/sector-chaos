@@ -1,0 +1,270 @@
+{
+  "resources": ["assets/audio/spritesheet/audiosprite.ogg"],
+  "spritemap": {
+    "1": {
+      "start": 62.2975,
+      "end": 62.7855,
+      "loop": false
+    },
+    "2": {
+      "start": 62.7855,
+      "end": 63.3669,
+      "loop": false
+    },
+    "3": {
+      "start": 63.3669,
+      "end": 63.9435,
+      "loop": false
+    },
+    "footstep_concrete_000": {
+      "start": 0,
+      "end": 0.103,
+      "loop": false
+    },
+    "footstep_concrete_001": {
+      "start": 0.103,
+      "end": 0.2078,
+      "loop": false
+    },
+    "footstep_concrete_002": {
+      "start": 0.2078,
+      "end": 0.3176,
+      "loop": false
+    },
+    "footstep_concrete_003": {
+      "start": 0.3176,
+      "end": 0.4252,
+      "loop": false
+    },
+    "footstep_concrete_004": {
+      "start": 0.4252,
+      "end": 0.5367,
+      "loop": false
+    },
+    "impactbell_heavy_001": {
+      "start": 0.5367,
+      "end": 2.2776,
+      "loop": false
+    },
+    "impactbell_heavy_002": {
+      "start": 2.2776,
+      "end": 2.9748,
+      "loop": false
+    },
+    "impactbell_heavy_003": {
+      "start": 2.9748,
+      "end": 3.6284,
+      "loop": false
+    },
+    "impactbell_heavy_004": {
+      "start": 3.6284,
+      "end": 3.927,
+      "loop": false
+    },
+    "impactgeneric_light_000": {
+      "start": 3.927,
+      "end": 4.0881,
+      "loop": false
+    },
+    "impactglass_heavy_000": {
+      "start": 4.0881,
+      "end": 4.3264,
+      "loop": false
+    },
+    "impactmetal_heavy_000": {
+      "start": 4.3264,
+      "end": 4.4912,
+      "loop": false
+    },
+    "impactmetal_heavy_001": {
+      "start": 4.4912,
+      "end": 4.8475,
+      "loop": false
+    },
+    "impactmetal_heavy_002": {
+      "start": 4.8475,
+      "end": 4.9619,
+      "loop": false
+    },
+    "impactmetal_heavy_003": {
+      "start": 4.9619,
+      "end": 5.1659,
+      "loop": false
+    },
+    "impactpunch_heavy_000": {
+      "start": 5.1659,
+      "end": 5.815,
+      "loop": false
+    },
+    "impactpunch_heavy_001": {
+      "start": 5.815,
+      "end": 6.3509,
+      "loop": false
+    },
+    "impactpunch_heavy_002": {
+      "start": 6.3509,
+      "end": 6.8084,
+      "loop": false
+    },
+    "impactpunch_heavy_003": {
+      "start": 6.8084,
+      "end": 7.2822,
+      "loop": false
+    },
+    "impactpunch_medium_000": {
+      "start": 7.2822,
+      "end": 7.7127,
+      "loop": false
+    },
+    "impactpunch_medium_001": {
+      "start": 7.7127,
+      "end": 8.1144,
+      "loop": false
+    },
+    "impactsoft_medium_000": {
+      "start": 8.1144,
+      "end": 8.2295,
+      "loop": false
+    },
+    "impactwood_heavy_000": {
+      "start": 8.2295,
+      "end": 8.5397,
+      "loop": false
+    },
+    "impactwood_heavy_001": {
+      "start": 8.5397,
+      "end": 8.8498,
+      "loop": false
+    },
+    "impactwood_heavy_002": {
+      "start": 8.8498,
+      "end": 9.16,
+      "loop": false
+    },
+    "impactwood_light_000": {
+      "start": 9.16,
+      "end": 9.4227,
+      "loop": false
+    },
+    "impactwood_medium_000": {
+      "start": 9.4227,
+      "end": 9.7524,
+      "loop": false
+    },
+    "click_001": {
+      "start": 9.7524,
+      "end": 9.8495,
+      "loop": false
+    },
+    "click_003": {
+      "start": 9.8495,
+      "end": 9.8567,
+      "loop": false
+    },
+    "confirmation_001": {
+      "start": 9.8567,
+      "end": 10.1465,
+      "loop": false
+    },
+    "confirmation_002": {
+      "start": 10.1465,
+      "end": 10.6855,
+      "loop": false
+    },
+    "glitch_001": {
+      "start": 10.6855,
+      "end": 10.7026,
+      "loop": false
+    },
+    "maximize_001": {
+      "start": 10.7026,
+      "end": 10.961,
+      "loop": false
+    },
+    "maximize_002": {
+      "start": 10.961,
+      "end": 11.2193,
+      "loop": false
+    },
+    "maximize_003": {
+      "start": 11.2193,
+      "end": 11.4312,
+      "loop": false
+    },
+    "minimize_001": {
+      "start": 11.4312,
+      "end": 11.6895,
+      "loop": false
+    },
+    "open_001": {
+      "start": 11.6895,
+      "end": 11.8373,
+      "loop": false
+    },
+    "open_003": {
+      "start": 11.8373,
+      "end": 12.1511,
+      "loop": false
+    },
+    "switch_001": {
+      "start": 12.1511,
+      "end": 12.7659,
+      "loop": false
+    },
+    "switch_002": {
+      "start": 12.7659,
+      "end": 13.3739,
+      "loop": false
+    },
+    "tick_001": {
+      "start": 13.3739,
+      "end": 13.4189,
+      "loop": false
+    },
+    "tick_002": {
+      "start": 13.4189,
+      "end": 13.4392,
+      "loop": false
+    },
+    "jingles_steel_00": {
+      "start": 13.4392,
+      "end": 14.8265,
+      "loop": false
+    },
+    "game_over": {
+      "start": 14.8265,
+      "end": 24.4475,
+      "loop": false
+    },
+    "mission_plausible": {
+      "start": 24.4475,
+      "end": 34.9475,
+      "loop": false
+    },
+    "wacky_waiting": {
+      "start": 34.9475,
+      "end": 46.9475,
+      "loop": false
+    },
+    "retro_beat": {
+      "start": 46.9475,
+      "end": 62.2975,
+      "loop": false
+    },
+    "go": {
+      "start": 63.9435,
+      "end": 64.5404,
+      "loop": false
+    },
+    "hurry_up": {
+      "start": 64.5404,
+      "end": 65.2665,
+      "loop": false
+    },
+    "power_up": {
+      "start": 65.2665,
+      "end": 66.0271,
+      "loop": false
+    }
+  }
+}

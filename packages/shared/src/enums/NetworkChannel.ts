@@ -1,0 +1,21 @@
+/** Network message channel names. */
+export const NetworkChannel = {
+  ATTACK: 'attack',
+  THROW: 'throw',
+  PICKUP: 'pickup',
+  SWITCH_SLOT: 'switch_slot',
+  DASH: 'dash',
+  MATCH_START: 'match_start',
+  MATCH_END: 'match_end',
+  DAMAGE: 'damage',
+  KILL_FEED: 'kill_feed',
+  ZONE_UPDATE: 'zone_update',
+  EXPLOSION: 'explosion',
+  ERROR: 'error',
+  AFK_WARNING: 'AFKWarning',
+  CHAT: 'chat',
+  SPECTATOR_FOLLOW_TARGET: 'SpectatorFollowTarget',
+  RECONNECT_AS_SPECTATOR: 'ReconnectAsSpectator',
+  PLAYER_RESYNC: 'playerResync',
+  MATCH_CANCELLED: 'matchCancelled',
+} as const;

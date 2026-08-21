@@ -1,0 +1,48 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "tiled/demo_map.tmx",
+    "expandedProjectPaths": [
+        ".",
+        "tiled"
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "tiled/demo_map.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 1941,
+                "y": 580
+            }
+        },
+        "tiled/env.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tiled/weapons.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "C:/Users/Felip/Projects/gamedev/repos/sector-chaos-neo/game-assets/Items",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 128,
+    "map.tileWidth": 128,
+    "map.width": 20,
+    "openFiles": [
+        "tiled/demo_map.tmx"
+    ],
+    "project": "sector-chaos.tiled-project",
+    "recentFiles": [
+        "tiled/demo_map.tmx",
+        "tiled/env.tsx",
+        "tiled/weapons.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.type": 1
+}

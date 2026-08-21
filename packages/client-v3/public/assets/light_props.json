@@ -1,0 +1,141 @@
+{
+  "textures": [
+    {
+      "image": "light_props.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 1024,
+        "h": 400
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "torch_01",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 4,
+            "y": 4,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "candle_01",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 136,
+            "y": 4,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "biome-glow_01",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 268,
+            "y": 4,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "brazier_01",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 4,
+            "y": 136,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "lantern_01",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 136,
+            "y": 136,
+            "w": 128,
+            "h": 128
+          }
+        },
+        {
+          "filename": "biome-crystal_01",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 128,
+            "h": 128
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 128,
+            "h": 128
+          },
+          "frame": {
+            "x": 4,
+            "y": 268,
+            "w": 128,
+            "h": 128
+          }
+        }
+      ]
+    }
+  ]
+}
